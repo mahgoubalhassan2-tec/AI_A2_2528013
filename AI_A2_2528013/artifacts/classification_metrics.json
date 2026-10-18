@@ -1,0 +1,66 @@
+{
+  "verification_code": "AI-A2-8013",
+  "target": "high_risk",
+  "positive_class": 1,
+  "test_size": 0.2,
+  "random_state": 8013,
+  "models": {
+    "baseline": {
+      "accuracy": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "confusion_matrix": [
+        [
+          26,
+          0
+        ],
+        [
+          26,
+          0
+        ]
+      ],
+      "roc_auc": 0.5
+    },
+    "logistic_regression": {
+      "accuracy": 0.9230769230769231,
+      "precision": 0.9583333333333334,
+      "recall": 0.8846153846153846,
+      "f1": 0.92,
+      "confusion_matrix": [
+        [
+          25,
+          1
+        ],
+        [
+          3,
+          23
+        ]
+      ],
+      "roc_auc": 0.9911242603550295
+    },
+    "random_forest": {
+      "accuracy": 0.9230769230769231,
+      "precision": 0.9583333333333334,
+      "recall": 0.8846153846153846,
+      "f1": 0.92,
+      "confusion_matrix": [
+        [
+          25,
+          1
+        ],
+        [
+          3,
+          23
+        ]
+      ],
+      "roc_auc": 0.9644970414201184
+    }
+  },
+  "selected_model": "logistic_regression",
+  "selection_reason": "Logistic regression matches random forest on accuracy, precision, recall, and F1 in this split, and has the higher ROC-AUC.",
+  "confusion_matrix_labels": {
+    "0": "not high risk",
+    "1": "high risk"
+  }
+}

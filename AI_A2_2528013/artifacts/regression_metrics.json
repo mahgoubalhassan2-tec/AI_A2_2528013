@@ -1,0 +1,25 @@
+{
+  "verification_code": "AI-A2-8013",
+  "target": "yield_tons",
+  "test_size": 0.2,
+  "random_state": 8013,
+  "models": {
+    "baseline": {
+      "MAE": 2.208049477221807,
+      "RMSE": 2.786586930006644,
+      "R2": -0.0022962181202237364
+    },
+    "linear_regression": {
+      "MAE": 0.9242305703747614,
+      "RMSE": 1.2184219011941004,
+      "R2": 0.808377591810252
+    },
+    "random_forest": {
+      "MAE": 1.2643613846153856,
+      "RMSE": 1.6541758594491425,
+      "R2": 0.6468052355574925
+    }
+  },
+  "selected_model": "linear_regression",
+  "selection_reason": "Linear regression has the lowest held-out MAE and RMSE and the highest R2 among the evaluated regression candidates."
+}

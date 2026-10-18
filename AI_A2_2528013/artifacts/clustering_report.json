@@ -1,0 +1,30 @@
+{
+  "verification_code": "AI-A2-8013",
+  "selected_k": 2,
+  "silhouette_scores": {
+    "2": 0.17443636260471487,
+    "3": 0.14584768080161128,
+    "4": 0.1540839798358165,
+    "5": 0.1545560772405916,
+    "6": 0.16376127855797523
+  },
+  "cluster_profiles": {
+    "0": {
+      "rainfall_mm": 974.72,
+      "avg_temp_c": 18.98,
+      "soil_moisture_pct": 48.88,
+      "fertilizer_kg": 123.39,
+      "field_size_ha": 2.11,
+      "cooperative_support": 1.0
+    },
+    "1": {
+      "rainfall_mm": 1013.63,
+      "avg_temp_c": 19.37,
+      "soil_moisture_pct": 51.41,
+      "fertilizer_kg": 116.76,
+      "field_size_ha": 2.0,
+      "cooperative_support": 0.0
+    }
+  },
+  "interpretation_note": "Cluster profiles describe groups in synthetic data and are not a farm rating."
+}

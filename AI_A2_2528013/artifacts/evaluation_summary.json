@@ -1,0 +1,12 @@
+{
+  "verification_code": "AI-A2-8013",
+  "test_rows": 52,
+  "regression_model": "linear_regression",
+  "classification_model": "logistic_regression",
+  "prediction_file": "artifacts/test_predictions.csv",
+  "plots": [
+    "artifacts/plots/residuals.png",
+    "artifacts/plots/confusion_matrix.png",
+    "artifacts/plots/clusters.png"
+  ]
+}
